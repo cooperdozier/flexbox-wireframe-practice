@@ -10,9 +10,10 @@ body {
 }
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .container2 {
     display: flex;
@@ -22,9 +23,10 @@ body {
 }
 header {
     min-height: 100px;
+    width: 100%;
     background-color: #f52323;
     padding: 8px;
-    min-width: 300px;
+    /* min-width: 300px; */
     margin: 0.5em;
 }
 .container2 {
@@ -40,12 +42,14 @@ aside {
     padding: 8px;
     min-width: 300px;
     margin: 0.5em;
+    height: 100%;
 }
 footer {
     min-height: 100px;
     background-color: #0e5d34;
     padding: 8px;
-    min-width: 300px;
+    width: 100%;
+    /* min-width: 300px; */
     margin: 0.5em;
 }
 article {
